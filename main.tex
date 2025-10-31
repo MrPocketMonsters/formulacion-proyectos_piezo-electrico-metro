@@ -1,0 +1,100 @@
+% ==============================================================================
+% PROYECTO: Generación de Energía Piezoeléctrica en Estaciones del Metro
+% Documento Principal
+% ==============================================================================
+
+\documentclass[12pt,a4paper,twoside]{report}
+
+% ==============================================================================
+% CONFIGURACIÓN DEL DOCUMENTO
+% ==============================================================================
+\input{config/packages}    % Paquetes necesarios
+\input{config/format}      % Formato del documento
+\input{config/commands}    % Comandos personalizados
+
+% ==============================================================================
+% INFORMACIÓN DEL DOCUMENTO
+% ==============================================================================
+\title{
+    \vspace{-2cm}
+    \textbf{Formulación de Proyecto:} \\
+    \vspace{0.5cm}
+    \Large{Generación de Energía mediante Tecnología Piezoeléctrica} \\
+    \Large{en Estaciones del Sistema de Metro}
+}
+\author{[Nombre del Autor o Equipo]}
+\date{\today}
+
+% ==============================================================================
+% INICIO DEL DOCUMENTO
+% ==============================================================================
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% PORTADA Y PRELIMINARES
+% ------------------------------------------------------------------------------
+\maketitle
+\cleardoublepage
+
+% Tabla de contenidos
+\tableofcontents
+\cleardoublepage
+
+% Lista de figuras
+\listoffigures
+\cleardoublepage
+
+% Lista de tablas
+\listoftables
+\cleardoublepage
+
+% ------------------------------------------------------------------------------
+% RESUMEN EJECUTIVO
+% ------------------------------------------------------------------------------
+\input{chapters/00_resumen_ejecutivo}
+\cleardoublepage
+
+% ------------------------------------------------------------------------------
+% CAPÍTULOS PRINCIPALES
+% ------------------------------------------------------------------------------
+
+% Capítulo 1: Introducción
+\input{chapters/01_introduccion}
+
+% Capítulo 2: Marco Teórico
+\input{chapters/02_marco_teorico}
+
+% Capítulo 3: Análisis de Contexto
+\input{chapters/03_analisis_contexto}
+
+% Capítulo 4: Propuesta Técnica
+\input{chapters/04_propuesta_tecnica}
+
+% Capítulo 5: Análisis Económico-Financiero
+\input{chapters/05_analisis_economico}
+
+% Capítulo 6: Análisis Ambiental y Social
+\input{chapters/06_analisis_ambiental}
+
+% Capítulo 7: Plan de Implementación
+\input{chapters/07_plan_implementacion}
+
+% Capítulo 8: Análisis de Riesgos
+\input{chapters/08_analisis_riesgos}
+
+% Capítulo 9: Conclusiones y Recomendaciones
+\input{chapters/09_conclusiones}
+
+% ------------------------------------------------------------------------------
+% REFERENCIAS BIBLIOGRÁFICAS
+% ------------------------------------------------------------------------------
+\bibliographystyle{IEEEtran}
+\bibliography{references/bibliography}
+
+% ------------------------------------------------------------------------------
+% ANEXOS
+% ------------------------------------------------------------------------------
+\appendix
+\input{chapters/anexos}
+
+\end{document}

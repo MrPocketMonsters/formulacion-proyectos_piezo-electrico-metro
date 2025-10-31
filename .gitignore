@@ -1,0 +1,120 @@
+# ==============================================================================
+# .gitignore para Proyecto LaTeX
+# Generación de Energía Piezoeléctrica en Metro
+# ==============================================================================
+
+# Archivos auxiliares de compilación LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Archivos de índice
+*.idx
+*.ilg
+*.ind
+
+# Archivos de bibliografía
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Archivos de compilación
+*.dvi
+*.ps
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+
+# Archivos de backup y temporales
+*~
+*.backup
+*.bak
+*.sav
+*.swp
+*~
+
+# Archivos de latexmk
+*.fdb_latexmk
+*.synctex
+*.synctex.gz(busy)
+
+# Archivos de glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Archivos de hyperref
+*.brf
+
+# Archivos de tikz y pgfplots
+*.dpth
+*.md5
+*.auxlock
+
+# Archivos de beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Archivos de listings
+*.lol
+
+# Archivos de nomenclature
+*.nlg
+*.nlo
+*.nls
+
+# Directorio de caché de VS Code LaTeX Workshop
+.vscode/
+*.code-workspace
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Directorios de salida
+output/
+build/
+dist/
+
+# PDF compilado (opcional, comentar si quieres versionar el PDF)
+# main.pdf
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# Archivos de TeXstudio
+*.txss
+
+# Archivos de Overleaf
+.texpadtmp
+
+# Archivos de MiKTeX
+*.gz(busy)
+*.synctex.gz(busy)
+
+# Carpetas de configuración de IDEs
+.idea/
+*.iml

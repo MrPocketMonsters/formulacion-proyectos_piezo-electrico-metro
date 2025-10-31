@@ -1,0 +1,113 @@
+% ==============================================================================
+% COMANDOS PERSONALIZADOS
+% ==============================================================================
+
+% ------------------------------------------------------------------------------
+% Comandos para el proyecto
+% ------------------------------------------------------------------------------
+
+% Nombre del proyecto
+\newcommand{\nombreproyecto}{Generación de Energía Piezoeléctrica en Metro}
+
+% Acrónimos comunes
+\newcommand{\piezo}{\textit{piezoelectricidad}}
+\newcommand{\kwh}{\si{\kilo\watt\hour}}
+\newcommand{\mw}{\si{\mega\watt}}
+\newcommand{\kw}{\si{\kilo\watt}}
+
+% ------------------------------------------------------------------------------
+% Comandos matemáticos
+% ------------------------------------------------------------------------------
+
+% Vector
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+
+% Matriz
+\newcommand{\mat}[1]{\mathbf{#1}}
+
+% Derivada parcial
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+
+% ------------------------------------------------------------------------------
+% Comandos para facilitar la escritura
+% ------------------------------------------------------------------------------
+
+% Resaltar texto importante
+\newcommand{\importante}[1]{\textbf{\color{verdeenergia}#1}}
+
+% Términos técnicos
+\newcommand{\termino}[1]{\textit{#1}}
+
+% Siglas
+\newcommand{\sigla}[1]{\textsc{#1}}
+
+% ------------------------------------------------------------------------------
+% Comandos para tablas
+% ------------------------------------------------------------------------------
+
+% Encabezado de tabla con color
+\newcommand{\tabheader}[1]{\textbf{\color{white}#1}}
+
+% Celda resaltada
+\newcommand{\cellhl}[1]{\cellcolor{gray!20}#1}
+
+% ------------------------------------------------------------------------------
+% Comandos para referencias
+% ------------------------------------------------------------------------------
+
+% Referencia a figura
+\newcommand{\figref}[1]{Figura~\ref{#1}}
+
+% Referencia a tabla
+\newcommand{\tabref}[1]{Tabla~\ref{#1}}
+
+% Referencia a ecuación
+\newcommand{\eqref}[1]{Ecuación~\eqref{#1}}
+
+% Referencia a capítulo
+\newcommand{\chapref}[1]{Capítulo~\ref{#1}}
+
+% Referencia a sección
+\newcommand{\secref}[1]{Sección~\ref{#1}}
+
+% ------------------------------------------------------------------------------
+% Comandos para unidades de energía y potencia
+% ------------------------------------------------------------------------------
+
+% Energía generada
+\newcommand{\energia}[1]{\SI{#1}{\kilo\watt\hour}}
+
+% Potencia
+\newcommand{\potencia}[1]{\SI{#1}{\watt}}
+
+% Voltaje
+\newcommand{\voltaje}[1]{\SI{#1}{\volt}}
+
+% Corriente
+\newcommand{\corriente}[1]{\SI{#1}{\ampere}}
+
+% ------------------------------------------------------------------------------
+% Comandos para datos económicos
+% ------------------------------------------------------------------------------
+
+% Moneda (personalizar según país)
+\newcommand{\moneda}[1]{\$\num{#1}}
+
+% Porcentaje
+\newcommand{\porciento}[1]{\SI{#1}{\percent}}
+
+% TIR (Tasa Interna de Retorno)
+\newcommand{\tir}{\sigla{tir}}
+
+% VAN (Valor Actual Neto)
+\newcommand{\van}{\sigla{van}}
+
+% ------------------------------------------------------------------------------
+% Comandos para el marco regulatorio
+% ------------------------------------------------------------------------------
+
+% Ley o norma
+\newcommand{\norma}[1]{\textit{#1}}
+
+% Artículo de ley
+\newcommand{\articulo}[1]{Art. #1}

@@ -1,0 +1,61 @@
+% Fundamentos de la piezoelectricidad
+
+\subsection{Definición del Efecto Piezoeléctrico}
+
+\begin{definicion}
+La \piezo{} es la capacidad de ciertos materiales cristalinos de generar una diferencia de potencial eléctrico (voltaje) cuando son sometidos a esfuerzos mecánicos (presión, compresión, torsión o flexión). Este fenómeno también opera de manera inversa: al aplicar un campo eléctrico, el material experimenta deformación mecánica.
+\end{definicion}
+
+El término proviene del griego \textit{piezein} (πιέζειν), que significa "presionar" o "apretar".
+
+\subsection{Descubrimiento e Historia}
+
+El efecto piezoeléctrico fue descubierto en 1880 por los hermanos Pierre y Jacques Curie en cristales de cuarzo, turmalina, sal de Rochelle y otros materiales. El efecto inverso fue predicho matemáticamente por Gabriel Lippmann en 1881 y confirmado experimentalmente por los Curie ese mismo año.
+
+\subsection{Principio de Funcionamiento}
+
+El efecto piezoeléctrico se fundamenta en la estructura cristalina asimétrica de ciertos materiales. Cuando se aplica una fuerza mecánica:
+
+\begin{enumerate}
+    \item La estructura cristalina se deforma
+    \item Los centros de carga positiva y negativa se desplazan
+    \item Se genera una polarización eléctrica
+    \item Aparece una diferencia de potencial en las caras del material
+\end{enumerate}
+
+\subsection{Ecuaciones Fundamentales}
+
+Las ecuaciones constitutivas piezoeléctricas relacionan las variables eléctricas y mecánicas:
+
+\textbf{Efecto directo (mecánico → eléctrico):}
+\begin{equation}
+D_i = d_{ijk} \sigma_{jk} + \epsilon_{ij}^{\sigma} E_j
+\label{eq:piezo_directo}
+\end{equation}
+
+\textbf{Efecto inverso (eléctrico → mecánico):}
+\begin{equation}
+\varepsilon_{ij} = s_{ijkl}^E \sigma_{kl} + d_{kij} E_k
+\label{eq:piezo_inverso}
+\end{equation}
+
+donde:
+\begin{itemize}
+    \item $D_i$ es el desplazamiento eléctrico
+    \item $d_{ijk}$ es el coeficiente piezoeléctrico
+    \item $\sigma_{jk}$ es el tensor de esfuerzos mecánicos
+    \item $\epsilon_{ij}^{\sigma}$ es la permitividad dieléctrica
+    \item $E_j$ es el campo eléctrico
+    \item $\varepsilon_{ij}$ es la deformación mecánica
+    \item $s_{ijkl}^E$ es el tensor de compliancia elástica
+\end{itemize}
+
+\subsection{Parámetros Clave}
+
+\begin{itemize}
+    \item \textbf{Coeficiente piezoeléctrico ($d_{ij}$):} Relaciona la carga generada con la fuerza aplicada. Se mide en picocoulombs por newton (pC/N).
+    
+    \item \textbf{Constante de voltaje ($g_{ij}$):} Relaciona el campo eléctrico generado con el esfuerzo aplicado. Se mide en volt-metros por newton (Vm/N).
+    
+    \item \textbf{Factor de acoplamiento electromecánico ($k$):} Mide la eficiencia de conversión entre energía mecánica y eléctrica.
+\end{itemize}
