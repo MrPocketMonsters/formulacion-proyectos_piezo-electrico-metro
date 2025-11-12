@@ -33,15 +33,8 @@ formulacion-proyectos_piezo-electrico-metro/
 │
 ├── sections/                         # Secciones modulares
 │   ├── 01_antecedentes.tex           # Secciones del capítulo 1
-│   ├── 01_problema.tex
-│   ├── 01_justificacion.tex
 │   ├── 01_objetivo_general.tex
-│   ├── 01_objetivos_especificos.tex
-│   ├── 01_alcance.tex
-│   ├── 01_limitaciones.tex
 │   ├── 02_fundamentos_piezoelectricidad.tex  # Secciones del capítulo 2
-│   ├── 02_materiales_piezoelectricos.tex
-│   ├── 02_estado_del_arte.tex
 │   ├── anexo_glosario.tex            # Secciones de anexos
 │   └── anexo_acronimos.tex
 │
@@ -230,22 +223,5 @@ Para contribuir al documento:
 3. Compila y verifica que no haya errores
 4. Haz commit con mensajes descriptivos
 5. Crea un pull request
-
-## 📝 Notas de Versión
-
-- **v1.0.0** (2025-10-31): Estructura inicial del proyecto con capítulos y secciones base
-
-## 📄 Licencia
-
-Este documento es propiedad de [Institución/Organización]. Todos los derechos reservados.
-
-## 📧 Contacto
-
-Para consultas sobre este proyecto:
-- **Responsable**: [Nombre]
-- **Email**: [email@ejemplo.com]
-- **Institución**: [Nombre de la institución]
-
----
 
 **Nota**: Los valores marcados como `[Por determinar]` o `[Por calcular]` deben ser completados durante el desarrollo del proyecto con datos reales y análisis específicos.
