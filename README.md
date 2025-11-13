@@ -4,9 +4,9 @@
 
 Este repositorio contiene la documentación completa de la formulación del proyecto para la implementación de sistemas de generación de energía mediante tecnología piezoeléctrica en estaciones del sistema de Metro. El objetivo es aprovechar la energía cinética generada por el tránsito de pasajeros para producir electricidad, contribuyendo a la sostenibilidad y eficiencia energética del sistema de transporte público.
 
-## 🏗️ Estructura del Proyecto
+## 🏗️ Estructura del Proyecto (versión concisa y alineada a la metodología)
 
-El proyecto está organizado de manera modular para facilitar la edición, mantenimiento y expansión del documento:
+El proyecto mantiene una organización modular; a continuación se muestra la estructura recomendada, más concisa y alineada con el módulo de formulación:
 
 ```
 formulacion-proyectos_piezo-electrico-metro/
@@ -18,24 +18,24 @@ formulacion-proyectos_piezo-electrico-metro/
 │   ├── format.tex                    # Formato del documento (estilos, colores)
 │   └── commands.tex                  # Comandos personalizados
 │
-├── chapters/                         # Capítulos del documento
-│   ├── 00_resumen_ejecutivo.tex      # Resumen ejecutivo
-│   ├── 01_introduccion.tex           # Introducción
-│   ├── 02_marco_teorico.tex          # Marco teórico
-│   ├── 03_analisis_contexto.tex      # Análisis de contexto
-│   ├── 04_propuesta_tecnica.tex      # Propuesta técnica
-│   ├── 05_analisis_economico.tex     # Análisis económico-financiero
-│   ├── 06_analisis_ambiental.tex     # Análisis ambiental y social
-│   ├── 07_plan_implementacion.tex    # Plan de implementación
-│   ├── 08_analisis_riesgos.tex       # Análisis de riesgos
-│   ├── 09_conclusiones.tex           # Conclusiones y recomendaciones
-│   └── anexos.tex                    # Anexos
+├── chapters/                         # Capítulos del documento (concisos)
+│   ├── 00_resumen_ejecutivo.tex
+│   ├── 01_contexto_y_diagnostico.tex
+│   ├── 02_objetivos_alcance.tex
+│   ├── 03_marco_teorico_metodologia.tex
+│   ├── 04_propuesta_tecnica.tex
+│   ├── 05_analisis_mercado_y_economico.tex
+│   ├── 06_impacto_ambiental_y_social.tex
+│   ├── 07_plan_implementacion_y_monitoreo.tex
+│   ├── 08_gestion_riesgos_y_dofa.tex
+│   ├── 09_conclusiones.tex
+│   └── anexos.tex
 │
-├── sections/                         # Secciones modulares
-│   ├── 01_antecedentes.tex           # Secciones del capítulo 1
-│   ├── 01_objetivo_general.tex
-│   ├── 02_fundamentos_piezoelectricidad.tex  # Secciones del capítulo 2
-│   ├── anexo_glosario.tex            # Secciones de anexos
+├── sections/                         # Secciones modulares y anexos
+│   ├── 01_antecedentes.tex
+│   ├── 02_objetivo_general.tex
+│   ├── 03_fundamentos_piezoelectricidad.tex
+│   ├── anexo_glosario.tex
 │   └── anexo_acronimos.tex
 │
 ├── figures/                          # Imágenes y figuras
@@ -53,18 +53,17 @@ formulacion-proyectos_piezo-electrico-metro/
 
 ## 🎯 Contenido del Documento
 
-### Capítulos Principales
+### Capítulos principales (resumido y ordenado)
 
 1. **Resumen Ejecutivo**: Síntesis del proyecto, objetivos, beneficios e indicadores clave
-2. **Introducción**: Antecedentes, planteamiento del problema, justificación y objetivos
-3. **Marco Teórico**: Fundamentos de piezoelectricidad, materiales, tecnologías y estado del arte
-4. **Análisis de Contexto**: Características del metro, flujo de pasajeros y zonas potenciales
-5. **Propuesta Técnica**: Diseño del sistema, cálculos de generación y especificaciones
-6. **Análisis Económico-Financiero**: Costos, proyecciones, VAN, TIR y análisis de sensibilidad
-7. **Análisis Ambiental y Social**: Impacto ambiental, huella de carbono y responsabilidad social
-8. **Plan de Implementación**: Fases, cronograma, recursos y plan de mantenimiento
-9. **Análisis de Riesgos**: Identificación, evaluación y estrategias de mitigación
-10. **Conclusiones y Recomendaciones**: Viabilidad del proyecto y trabajos futuros
+2. **Contexto y Diagnóstico**: Antecedentes y diagnóstico del sistema de metro
+3. **Objetivos y Alcance**n+4. **Marco Teórico y Metodología**: Metodología aplicada para estudios técnicos y económicos
+5. **Propuesta Técnica**: Diseño del sistema y especificaciones
+6. **Análisis de Mercado y Viabilidad Económico-Financiera**: Demanda, supuestos, VAN/TIR y sensibilidad
+7. **Impacto Ambiental y Social**: Impactos, permisos y medidas de mitigación
+8. **Plan de Implementación y Monitoreo**: Cronograma, roles, presupuesto por fase e indicadores
+9. **Gestión de Riesgos y DOFA (validado)**: DOFA final, matriz de riesgos priorizada y medidas de mitigación
+10. **Conclusiones y Recomendaciones**
 
 ## 🚀 Compilación del Documento
 
